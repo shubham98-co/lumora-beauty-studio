@@ -41,7 +41,7 @@ export default function Contact({ onOpenBooking }) {
     '06:00 PM - 07:30 PM',
   ];
 
-  const whatsappDirectUrl = `https://wa.me/${SALON_INFO.whatsappNumber}?text=${encodeURIComponent("Hello Lumora Beauty Studio, I would like to book an appointment at your Cantonment Road salon in Cuttack.")}`;
+  const whatsappDirectUrl = `https://wa.me/${SALON_INFO.whatsappNumber}?text=${encodeURIComponent("Hello Lumora Beauty Studio, I would like to book an appointment at your Bandra West salon in Mumbai.")}`;
 
   const whatsappFormUrl = `https://wa.me/${SALON_INFO.whatsappNumber}?text=${encodeURIComponent(
     `Hello Lumora Beauty Studio,\n\nBooking Request from Website:\n• Name: ${formData.name || 'Guest'}\n• Phone: ${formData.phone || 'Not provided'}\n• Service: ${formData.service}\n• Date: ${formData.date || 'Flexible'}\n• Time Slot: ${formData.timeSlot}\n• Note: ${formData.message || 'Standard appointment'}\n\nPlease confirm availability!`
@@ -57,7 +57,7 @@ export default function Contact({ onOpenBooking }) {
             <span>Connect & Reserve</span>
           </div>
           <h2 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-obsidian-950 mb-4">
-            Visit Our Cuttack Studio
+            Visit Our Mumbai Studio
           </h2>
           <div className="w-16 h-0.5 bg-gold-500 mx-auto mb-5"></div>
           <p className="text-stone-600 text-base sm:text-lg">
@@ -121,7 +121,7 @@ export default function Contact({ onOpenBooking }) {
             </a>
           </div>
 
-          {/* Card 3: Cuttack Location */}
+          {/* Card 3: Mumbai Location */}
           <div className="rounded-2xl p-6 bg-white border border-gold-200 shadow-luxury flex flex-col justify-between">
             <div>
               <div className="w-12 h-12 rounded-xl bg-gold-100 border border-gold-300 flex items-center justify-center text-gold-700 mb-4">
@@ -130,7 +130,7 @@ export default function Contact({ onOpenBooking }) {
               <div className="text-xs uppercase tracking-luxury text-gold-800 font-semibold mb-1">
                 Studio Address
               </div>
-              <h3 className="font-serif text-2xl font-bold text-obsidian-950 mb-2">Cantonment Road</h3>
+              <h3 className="font-serif text-2xl font-bold text-obsidian-950 mb-2">Bandra West, Mumbai</h3>
               <p className="text-stone-600 text-xs sm:text-sm mb-2 leading-relaxed">
                 {SALON_INFO.address}
               </p>
@@ -249,7 +249,7 @@ export default function Contact({ onOpenBooking }) {
                         </option>
                       ))}
                       <option value="The Lumora Glow Ritual Package">The Lumora Glow Ritual Package (₹3,499)</option>
-                      <option value="The Royal Odia Bride Suite">The Royal Odia Bride Suite (₹24,999)</option>
+                      <option value="The Royal Mumbai Bride Suite">The Royal Mumbai Bride Suite (₹24,999)</option>
                       <option value="Couture Hair Transformation">Couture Hair Transformation (₹6,999)</option>
                       <option value="Custom Consultation">General Styling / Skin Consultation</option>
                     </select>
@@ -359,40 +359,48 @@ export default function Contact({ onOpenBooking }) {
               </div>
             </div>
 
-            {/* Stylized Cuttack Map / Landmark Card */}
+            {/* Stylized Mumbai Map & Studio Guide */}
             <div id="map-section" className="bg-white rounded-3xl p-6 sm:p-8 border border-gold-200 shadow-luxury">
               <div className="flex items-center justify-between mb-4">
                 <div className="flex items-center gap-2 text-gold-800 text-xs uppercase tracking-luxury font-semibold">
                   <MapPin className="w-4 h-4 text-gold-600" />
-                  <span>Cuttack Studio Guide</span>
+                  <span>Mumbai Studio Guide</span>
                 </div>
-                <span className="text-xs text-stone-500">Pincode 753001</span>
+                <span className="text-xs text-stone-500">Pincode 400050</span>
               </div>
 
               <h4 className="font-serif text-xl font-bold text-obsidian-950 mb-3">
                 How to Reach Us
               </h4>
               <p className="text-stone-600 text-xs leading-relaxed mb-4">
-                Located conveniently along Cantonment Road, adjacent to Deer Park and within 5 minutes drive from Mahanadi Ring Road and Barabati Stadium.
+                Located conveniently along Turner Road in Bandra West, adjacent to Pali Hill and within 5 minutes drive from Carter Road Promenade and the Bandra-Worli Sea Link.
               </p>
 
-              {/* Graphic Mockup Map */}
-              <div className="relative rounded-2xl overflow-hidden border border-gold-200/80 bg-stone-100 h-44 mb-4 flex items-center justify-center p-4 text-center">
-                <div className="absolute inset-0 bg-[radial-gradient(#d7bb91_1px,transparent_1px)] [background-size:16px_16px] opacity-40" />
-                <div className="relative z-10">
-                  <div className="w-10 h-10 rounded-full bg-obsidian-950 text-gold-300 border-2 border-gold-400 mx-auto flex items-center justify-center mb-2 shadow-md">
-                    <MapPin className="w-5 h-5 text-gold-400 animate-bounce" />
-                  </div>
-                  <div className="font-serif font-bold text-obsidian-950 text-sm">
-                    LUMORA BEAUTY STUDIO
-                  </div>
-                  <div className="text-[11px] text-stone-500">
-                    Plot 104, Cantonment Rd, Cuttack
-                  </div>
-                </div>
+              {/* Google Maps Embed & Interactive Map */}
+              <div className="relative rounded-2xl overflow-hidden border border-gold-200/80 bg-stone-100 h-52 mb-4 shadow-sm">
+                <iframe
+                  title="Lumora Beauty Studio Bandra West Mumbai Location Map"
+                  src="https://maps.google.com/maps?q=Bandra+West,+Mumbai,+Maharashtra,+India&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                  className="w-full h-full border-0"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
               </div>
 
-              <div className="flex items-center justify-between text-xs text-stone-500 pt-2">
+              {/* Direct Map Link */}
+              <div className="mb-4">
+                <a
+                  href="https://maps.google.com/?q=Bandra+West,+Mumbai,+Maharashtra,+India"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full py-2.5 px-4 rounded-xl border border-gold-400 bg-gold-50/50 hover:bg-gold-100 text-obsidian-950 text-xs font-semibold tracking-wider uppercase flex items-center justify-center gap-2 transition-all shadow-sm"
+                >
+                  <Navigation className="w-3.5 h-3.5 text-gold-700" />
+                  <span>Open in Google Maps</span>
+                </a>
+              </div>
+
+              <div className="flex items-center justify-between text-xs text-stone-500 pt-2 border-t border-stone-100">
                 <span>🚗 Valet Parking Available</span>
                 <span>♿ Accessible Entrance</span>
               </div>

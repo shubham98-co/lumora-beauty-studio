@@ -2,9 +2,9 @@ export const SALON_INFO = {
   name: "LUMORA",
   fullName: "LUMORA BEAUTY STUDIO",
   tagline: "Bespoke Artistry & Luxury Wellness",
-  city: "Cuttack, Odisha",
-  address: "Plot No. 104, Cantonment Road, Near Ring Road, Cuttack, Odisha 753001",
-  landmark: "Near Deer Park & High Court Annex, Cantonment Area",
+  city: "Bandra West, Mumbai, Maharashtra, India",
+  address: "Plot No. 104, Turner Road, Bandra West, Mumbai, Maharashtra 400050, India",
+  landmark: "Near Pali Hill & Carter Road Promenade, Bandra West",
   phone: "+91 98765 43210",
   phoneDisplay: "+91 98765 43210",
   whatsappNumber: "919876543210",
@@ -16,7 +16,7 @@ export const SALON_INFO = {
   },
   stats: [
     { label: "Bespoke Makeovers", value: "3,800+" },
-    { label: "Odisha Brides Styled", value: "450+" },
+    { label: "Mumbai Brides Styled", value: "550+" },
     { label: "Master Artisans", value: "14" },
     { label: "Client Satisfaction", value: "4.9★" },
   ],
@@ -43,7 +43,7 @@ export const SERVICES = [
       "Face-shape diagnostic consultation",
       "Kérastase sensory hair wash & conditioning",
       "Dyson Supersonic precision thermal styling",
-      "Anti-humidity serum finish for Odisha weather"
+      "Anti-humidity serum finish for Mumbai's coastal climate"
     ],
     popular: true
   },
@@ -92,7 +92,7 @@ export const SERVICES = [
     startingPrice: 16500,
     priceFormatted: "₹16,500",
     image: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80",
-    shortDesc: "Couture bridal transformations blending modern dewy glass finish with regal Odia and contemporary Indian traditions.",
+    shortDesc: "Couture bridal transformations blending modern dewy glass finish with regal bridal elegance and contemporary red-carpet traditions.",
     highlights: [
       "HD Airbrush or Micro-pigment finish",
       "Premium mink lash extensions & jewelry placement",
@@ -159,7 +159,7 @@ export const PRICING_PACKAGES = [
   },
   {
     id: "pkg-2",
-    name: "The Royal Odia Bride",
+    name: "The Royal Mumbai Bride",
     badge: "Couture Bridal",
     price: 24999,
     originalPrice: 32000,
@@ -282,34 +282,34 @@ export const TESTIMONIALS = [
   {
     id: 1,
     name: "Dr. Shalini Pattnaik",
-    title: "Consultant Dermatologist, Cuttack",
+    title: "Consultant Dermatologist, Bandra West, Mumbai",
     rating: 5,
     treatment: "Signature 24K Glow Facial & Hair Spa",
-    comment: "As a doctor, hygiene and ingredient quality are non-negotiable for me. Lumora completely blew me away. Their sterilization protocols match clinical standards, and the relaxing ambience on Cantonment Road is unmatched in Odisha.",
+    comment: "As a doctor, hygiene and ingredient quality are non-negotiable for me. Lumora completely blew me away. Their sterilization protocols match clinical standards, and the relaxing ambience on Turner Road is unmatched in Mumbai.",
     date: "November 2024"
   },
   {
     id: 2,
     name: "Ananya Mohanty",
-    title: "Bride from CDA Sector 9, Cuttack",
+    title: "Bride from Pali Hill, Bandra West, Mumbai",
     rating: 5,
-    treatment: "Royal Odia Bridal Package",
-    comment: "Lumora's bridal team made my wedding day unforgettable! My makeup looked completely natural, radiant, and stayed flawless throughout the 10-hour ceremony in humid weather. The private suite gave me total privacy and peace.",
+    treatment: "Royal Mumbai Bridal Package",
+    comment: "Lumora's bridal team made my wedding day unforgettable! My makeup looked completely natural, radiant, and stayed flawless throughout the 10-hour ceremony in humid coastal weather. The private suite gave me total privacy and peace.",
     date: "October 2024"
   },
   {
     id: 3,
     name: "Rituparna Sahoo",
-    title: "Architect & Interior Designer",
+    title: "Architect & Luxury Interior Designer, Mumbai",
     rating: 5,
     treatment: "Caramel Balayage & Olaplex Ritual",
-    comment: "I used to travel all the way to Mumbai for hair color because salons here often overprocess. Lumora’s master colorist understood my brief to perfection. My hair feels softer than before. Truly a five-star aesthetic studio.",
+    comment: "Having tried salons across London and New York, Lumora in Bandra West stands in a league of its own. Their master colorist understood my brief to perfection. My hair feels softer than before. Truly a five-star aesthetic studio.",
     date: "December 2024"
   },
   {
     id: 4,
     name: "Siddharth Dash",
-    title: "Corporate Director, Cuttack-Bhubaneswar",
+    title: "Media & Corporate Director, BKC - Bandra, Mumbai",
     rating: 5,
     treatment: "Executive Hair Spa & Precision Cut",
     comment: "Top tier professionalism. No awkward waiting, warm hospitality, and the scalp massage was phenomenal after a hectic week. The online booking and WhatsApp coordination was instant and hassle-free.",
@@ -327,8 +327,8 @@ export const FAQS = [
     answer: "Simply click any 'Book on WhatsApp' button on this website. It will launch a direct chat with our concierge with your requested service, date, and time pre-filled for immediate confirmation."
   },
   {
-    question: "Where exactly is Lumora located in Cuttack?",
-    answer: "We are situated in the serene Cantonment Road precinct (near Deer Park and the High Court Annex), just minutes from the Mahanadi Ring Road. Dedicated valet parking is available for all guests."
+    question: "Where exactly is Lumora located in Mumbai?",
+    answer: "We are situated in the chic Bandra West precinct (near Turner Road and Pali Hill), just minutes from the Bandra-Worli Sea Link and Carter Road Promenade. Dedicated valet parking is available for all guests."
   },
   {
     question: "Do you offer bridal trials before the wedding day?",

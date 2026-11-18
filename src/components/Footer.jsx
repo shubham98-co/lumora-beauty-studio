@@ -72,13 +72,13 @@ export default function Footer({ onOpenBooking }) {
                   {SALON_INFO.name}
                 </span>
                 <span className="block text-[10px] tracking-luxury uppercase text-gold-400 font-semibold">
-                  Beauty Studio • Cuttack
+                  Beauty Studio • Bandra West, Mumbai
                 </span>
               </div>
             </div>
 
             <p className="text-stone-400 text-xs sm:text-sm leading-relaxed max-w-sm">
-              Cuttack's premier luxury salon atelier. Dedicated to precision hair architecture, clinical skincare rituals, and bespoke bridal artistry along Cantonment Road.
+              Mumbai's premier luxury salon atelier. Dedicated to precision hair architecture, clinical skincare rituals, and bespoke bridal artistry along Turner Road, Bandra West.
             </p>
 
             {/* Social Media Links */}
@@ -158,7 +158,7 @@ export default function Footer({ onOpenBooking }) {
           {/* Contact Details (Cols 10-12) */}
           <div className="lg:col-span-3 space-y-4">
             <h4 className="font-serif text-lg font-bold text-white tracking-wide">
-              Cuttack Concierge
+              Mumbai Concierge
             </h4>
             <div className="space-y-3 text-xs sm:text-sm">
               <div className="flex items-start gap-2.5 text-stone-400">

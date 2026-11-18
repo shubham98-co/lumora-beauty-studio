@@ -80,7 +80,7 @@ export default function BookingModal({ isOpen, onClose, preselectedItem }) {
   };
 
   const whatsappConfirmationUrl = `https://wa.me/${SALON_INFO.whatsappNumber}?text=${encodeURIComponent(
-    `Hello Lumora Beauty Studio Cuttack,\n\nI have submitted an online appointment request:\n• Ref ID: ${bookingRef}\n• Name: ${formData.name}\n• Phone: ${formData.phone}\n• Service: ${formData.service}\n• Artist: ${formData.stylist}\n• Date: ${formData.date || 'Earliest available'}\n• Time: ${formData.timeSlot}\n• Note: ${formData.notes || 'None'}\n\nPlease confirm my slot!`
+    `Hello Lumora Beauty Studio Bandra West, Mumbai,\n\nI have submitted an online appointment request:\n• Ref ID: ${bookingRef}\n• Name: ${formData.name}\n• Phone: ${formData.phone}\n• Service: ${formData.service}\n• Artist: ${formData.stylist}\n• Date: ${formData.date || 'Earliest available'}\n• Time: ${formData.timeSlot}\n• Note: ${formData.notes || 'None'}\n\nPlease confirm my slot!`
   )}`;
 
   const resetAndClose = () => {
@@ -108,7 +108,7 @@ export default function BookingModal({ isOpen, onClose, preselectedItem }) {
               Book Your Lumora Experience
             </h3>
             <p className="text-stone-500 text-xs sm:text-sm mt-1">
-              Cantonment Road, Cuttack • Instant reservation coordination
+              Bandra West, Mumbai • Instant reservation coordination
             </p>
           </div>
 

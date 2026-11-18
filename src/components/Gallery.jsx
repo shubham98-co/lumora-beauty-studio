@@ -39,7 +39,7 @@ export default function Gallery() {
           </h2>
           <div className="w-16 h-0.5 bg-gold-500 mx-auto mb-5"></div>
           <p className="text-stone-600 text-base sm:text-lg">
-            A glimpse into our serene Cuttack salon sanctuary, bespoke bridal makeovers, and precision hair artistry.
+            A glimpse into our serene Bandra West salon sanctuary, bespoke bridal makeovers, and precision hair artistry in Mumbai.
           </p>
         </div>
 
@@ -137,7 +137,7 @@ export default function Gallery() {
                       {selectedImage.subtitle}
                     </p>
                     <div className="mt-6 pt-6 border-t border-gold-500/20 text-xs text-stone-400 space-y-2">
-                      <div><strong className="text-stone-200">Location:</strong> Lumora Studio, Cantonment Road</div>
+                      <div><strong className="text-stone-200">Location:</strong> Lumora Studio, Bandra West, Mumbai</div>
                       <div><strong className="text-stone-200">Atelier:</strong> Senior Hair & Bridal Department</div>
                       <div><strong className="text-stone-200">Products:</strong> Kérastase & Global Formulas</div>
                     </div>

@@ -52,7 +52,7 @@ export default function Header({ onOpenBooking }) {
           <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-1 text-center md:text-left">
             <span className="flex items-center gap-1.5 text-stone-300">
               <MapPin className="w-3.5 h-3.5 text-gold-400 shrink-0" />
-              <span>Cantonment Road, Cuttack, Odisha</span>
+              <span>Bandra West, Mumbai, Maharashtra</span>
             </span>
             <span className="hidden sm:flex items-center gap-1.5 text-stone-300">
               <Clock className="w-3.5 h-3.5 text-gold-400 shrink-0" />
@@ -109,7 +109,7 @@ export default function Header({ onOpenBooking }) {
                 {SALON_INFO.name}
               </span>
               <span className="block text-[9px] sm:text-[10px] tracking-luxury uppercase text-gold-700 font-semibold">
-                Beauty Studio • Cuttack
+                Beauty Studio • Bandra West, Mumbai
               </span>
             </div>
           </a>
@@ -207,7 +207,7 @@ export default function Header({ onOpenBooking }) {
             </div>
 
             <div className="pt-4 text-xs text-stone-500 text-center">
-              Plot 104, Cantonment Road, Cuttack • Tue-Sun 10AM-8:30PM
+              Plot 104, Turner Road, Bandra West, Mumbai • Tue-Sun 10AM-8:30PM
             </div>
           </div>
         </div>

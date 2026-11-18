@@ -229,7 +229,7 @@ export default function Pricing({ onSelectPackage }) {
           </div>
           <div className="p-4 rounded-xl bg-cream-50 border border-gold-200/60 flex items-center justify-center gap-3">
             <Crown className="w-5 h-5 text-gold-600 shrink-0" />
-            <span className="text-xs font-medium text-stone-700">Private Changing & Valet Parking in Cuttack</span>
+            <span className="text-xs font-medium text-stone-700">Private Changing & Valet Parking in Bandra West</span>
           </div>
         </div>
       </div>

@@ -34,11 +34,11 @@ export default function About({ onOpenBooking }) {
             <span>Our Philosophy</span>
           </div>
           <h2 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-obsidian-950 mb-4">
-            Crafting Timeless Elegance in the Heart of Cuttack
+            Crafting Timeless Elegance in the Heart of Mumbai
           </h2>
           <div className="w-16 h-0.5 bg-gold-500 mx-auto mb-6"></div>
           <p className="text-stone-600 text-base sm:text-lg leading-relaxed">
-            Founded with a singular vision: to bring world-class salon luxury, Parisian hair ceremonies, and dermatologist-backed aesthetic care to Odisha’s historic Silver City.
+            Founded with a singular vision: to bring world-class salon luxury, Parisian hair ceremonies, and dermatologist-backed aesthetic care to Bandra West, Mumbai.
           </p>
         </div>
 
@@ -83,11 +83,11 @@ export default function About({ onOpenBooking }) {
             </div>
 
             <p className="text-stone-700 text-base leading-relaxed">
-              Nestled along the verdant and historic Cantonment Road near Deer Park, Lumora Beauty Studio was conceived as a peaceful retreat from the bustle of the city. We have curated a tranquil aesthetic environment adorned with warm beige hues, soft lighting, and private booths designed for unhurried pampering.
+              Nestled along the chic and vibrant Turner Road in Bandra West near Pali Hill, Lumora Beauty Studio was conceived as a peaceful sanctuary from the energetic pulse of Mumbai. We have curated a tranquil aesthetic environment adorned with warm beige hues, soft lighting, and private booths designed for unhurried pampering.
             </p>
 
             <p className="text-stone-700 text-base leading-relaxed">
-              Every appointment begins with an individualized diagnostic consultation. Whether you are preparing for a fairytale wedding at Barabati or refreshing your locks with an Olaplex bond repair therapy, our master artisans tailor every formula precisely to your skin tone, hair texture, and lifestyle.
+              Every appointment begins with an individualized diagnostic consultation. Whether you are preparing for a fairytale Mumbai wedding or refreshing your locks with an Olaplex bond repair therapy, our master artisans tailor every formula precisely to your skin tone, hair texture, and lifestyle.
             </p>
 
             {/* Core Pillars */}
@@ -137,7 +137,7 @@ export default function About({ onOpenBooking }) {
             <div className="pt-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border-t border-gold-200/70">
               <div>
                 <div className="font-serif font-bold text-obsidian-950 text-base">The Lumora Atelier Team</div>
-                <div className="text-stone-500 text-xs">Cantonment Road, Cuttack • Odisha</div>
+                <div className="text-stone-500 text-xs">Bandra West, Mumbai • Maharashtra</div>
               </div>
               <button
                 onClick={() => onOpenBooking()}

@@ -40,10 +40,10 @@ export default function Hero({ onOpenBooking }) {
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-gold-400/40 bg-obsidian-900/80 backdrop-blur-md mb-6 shadow-sm">
           <Sparkles className="w-3.5 h-3.5 text-gold-400" />
           <span className="text-gold-200 text-xs sm:text-sm font-medium tracking-luxury uppercase">
-            Cuttack's Premier Luxury Sanctuary
+            Bandra West's Premier Luxury Sanctuary
           </span>
           <span className="w-1.5 h-1.5 rounded-full bg-gold-400"></span>
-          <span className="text-stone-300 text-xs tracking-wider">Cantonment Road</span>
+          <span className="text-stone-300 text-xs tracking-wider">Bandra West, Mumbai</span>
         </div>
 
         {/* Primary Headline */}
@@ -53,7 +53,7 @@ export default function Hero({ onOpenBooking }) {
 
         {/* Subtitle */}
         <p className="max-w-2xl mx-auto text-base sm:text-xl text-stone-300 font-sans font-light leading-relaxed mb-10">
-          An intimate escape where master hair rituals, bespoke bridal artistry, and clinical skin rejuvenation converge in the heart of Cuttack, Odisha.
+          An intimate escape where master hair rituals, bespoke bridal artistry, and clinical skin rejuvenation converge in the heart of Bandra West, Mumbai, Maharashtra.
         </p>
 
         {/* Action Buttons */}
@@ -127,8 +127,8 @@ export default function Hero({ onOpenBooking }) {
               <Heart className="w-5 h-5 text-rose-300" />
             </div>
             <div>
-              <div className="text-white font-serif font-semibold text-base sm:text-lg">450+ Odia Brides</div>
-              <div className="text-stone-400 text-xs mt-0.5">Trusted across Cuttack & BBSR</div>
+              <div className="text-white font-serif font-semibold text-base sm:text-lg">550+ Mumbai Brides</div>
+              <div className="text-stone-400 text-xs mt-0.5">Trusted across Bandra, Juhu & SoBo</div>
             </div>
           </div>
         </div>
